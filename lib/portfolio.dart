@@ -13,7 +13,7 @@ class Portfolio extends StatefulWidget {
 class _PortfolioState extends State<Portfolio> {
   double get columnSpace => scale(150);
   double get paragraghSpace => scale(60);
-  final String fontFamilly = 'NotoSansKR';
+  final String fontFamilly = 'NotoSansKR'; 
 
   double get width =>MediaQuery.of(context).size.width;
   double get dotSize => scale(50);
